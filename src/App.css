@@ -1,0 +1,175 @@
+
+/* mobile devices ranging from iphone 6 up 11 */
+@media only screen and (min-width: 375px) and (max-width: 960px) {
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B2D6FF;
+  }
+  .block-1,
+  .block-2,
+  .block-3 {
+    width: 60.3%;
+    margin: 0 auto;
+  }
+
+  .button {
+    border-radius: 4px;
+    background-color: #545c57;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .size {
+      border-bottom: 1px solid #d2d7da;
+      text-align: left;
+      padding: 10px;
+      width: 100%;
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 751px) {
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #B2D6FF;
+  }
+  .block-1,
+  .block-2,
+  .block-3 {
+    width: 33.3%;
+    margin: 0 auto;
+  }
+
+  .button {
+    border-radius: 4px;
+    background-color: #545c57;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 55%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .responsive {
+    height: 100px;
+    width :300px;
+  }
+
+}
+
+
+input {
+ width: 50%;
+ padding : 12px 20px;
+ margin: 8px 0;
+ display: inline-inline-block;
+ border: 1px solid #ccc;
+ border-radius: 10px;
+}
+
+form {
+  padding: 50px;
+  margin-top: 20px;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.size {
+    border-bottom: 1px solid #d2d7da;
+    text-align: left;
+    float : left;
+    padding: 10px;
+    width: 100%;
+}
+
+
+svg path {
+  stroke-dashoffset : 210;
+  stroke-dasharray: 210;
+  animation: draw 10s forwards;
+}
+
+svg d {
+  fill-opacity : 0;
+    animation: fill-in 2s 10s forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-in {
+  to {
+    fill-opacity: 1;
+  }
+}
