@@ -17,10 +17,8 @@ There has been no use of any third party component libraries in writing this cha
 
 The Four components are :
 
- " <CommentForm />"
-  "<MainSvg />"
-  "<CommentsTab />"
-  "<Title />"
+
+  "<Title,CommentsTab, MainSvg, CommentForm />"
 
 Technology used for networking : Firebase Cloud Firestore, apart from Firebase no other dependencies have been leveraged in the construction or designing the components.
 
