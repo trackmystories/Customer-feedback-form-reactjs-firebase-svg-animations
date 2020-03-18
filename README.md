@@ -1,8 +1,4 @@
-By Ali Shirazee
-Email : ahmedshirazee@gmail.com
-Phone: +971 52 471 3783
-Date : Saturday / March 14th / 2020.
-Location: Dubai / UAE
+
 
 This Documentation is divided in 3 parts:
 
