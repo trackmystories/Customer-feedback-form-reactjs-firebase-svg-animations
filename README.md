@@ -1,15 +1,11 @@
 
 
-This Documentation is divided in 3 parts:
+Divided in 3 parts:
 
 Part 1:  Customer feedback Form.
 Part 2:  Animations.
 Part 3 : Responsive Layout.
 
-Documentation for the checkout challenge:
-
-
-There has been no use of any third party component libraries in writing this challenge, the application has been broken down into three main components, and one <Title /> Component strictly to demonstrate the basics of passing props. As each component within this challenge is self-contained.
 
 The Four components are :
 
@@ -79,14 +75,6 @@ Step Two : The green line rises toward the Statement (effectively ending the ani
 
 
 
-
-
-
-
-
-
-
-
 Part 3 : Responsive Layout:
 
 The layout has been used to adapt to multiple screen sizes along with animated button with in context to the form submission.
@@ -102,7 +90,4 @@ For example:
 //personal note
 
 
-Thank you for reaching out to me, I really enjoyed this test.
 
-Ali 
-# Checkout-challenge
