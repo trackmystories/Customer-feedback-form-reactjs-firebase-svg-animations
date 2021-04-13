@@ -19,4 +19,4 @@ React js Responsive web app, contains SVG Animations in two ways, first with in 
 <img src="./screen.png" width="650" alt="screen.png">
 
 
-<img src="./responsive.png" width="650" alt="responsive.png">
+<img src="./responsive.png" width="350" alt="responsive.png">
