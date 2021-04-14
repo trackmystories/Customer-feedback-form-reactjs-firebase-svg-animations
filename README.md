@@ -12,7 +12,6 @@ npm install
 npm start
 ```
 
-video demo: https://drive.google.com/file/d/1XAGjyJU-QiuolNmtUVyjg9tQAloeyABj/view
 
 ## About
 React js Responsive web app, contains SVG Animations in two ways, first with in the CSS code and second with in the state. The allows users to publish comments and diplays them on the comments section with a timestamp leveraging firebase.
